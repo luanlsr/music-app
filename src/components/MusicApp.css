@@ -1,0 +1,65 @@
+* {
+  background-color: rgb(23, 24, 24);
+  border: none;
+  color: white;
+  font-family: sans-serif;
+}
+
+.container-input {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+.input {
+  border: 2px solid rgb(37, 167, 37);
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  height: 50px;
+  padding-left: 15px;
+  width: 300px;
+}
+
+.btn-search {
+  background-color: rgb(37, 167, 37);
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  font-size: 25px;
+  height: 56px;
+  margin-left: 10px;
+  width: 150px;
+}
+
+.btn-search:hover {
+  background-color: rgb(109, 221, 109);
+}
+
+.photo {
+  margin-top: 30px;
+  width: 300px;
+  border-radius: 30px;
+}
+
+.artist-data {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.biography {
+  display: flex;
+  align-items: center;
+  text-align: justify;
+  justify-content: center;
+  max-width: 800px;
+}
